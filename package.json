@@ -1,0 +1,18 @@
+{
+  "name": "books-app",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect --ignore test/ index.js",
+    "test": "mocha",
+    "production": "node index.js"
+  },
+  "author": "barik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "slug": "^0.9.1"
+  }
+}
